@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: #00828c;
+    color:rgb(126, 21, 21);
+}
+.logo{
+font-size: 30px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+.home,
+.about,
+.status{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px; 
+    cursor: pointer;
+    
+}
+.status{
+    border: 1px,solid yellow;
+    border-radius: 5px;
+}
